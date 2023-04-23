@@ -1,0 +1,82 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{ulem}
+\usepackage{amsmath}
+\usepackage{bm}
+
+\newcommand{\matrx}[1]{\bm{#1}}
+
+\begin{document}	
+	\vspace*{\fill}
+	\begin{center}
+		\includegraphics[scale = 0.15]{brunel logo.png}
+		
+		\vspace{1cm}
+		\Large{Department of Mathematics, College of Engineering, Design and Physical Sciences, Brunel University}
+		
+		\vspace{1cm}
+		\Large{Fundamentals of Machine Learning}
+		
+		\vspace{1cm}
+		\large{Academic Year 2022 - 2023}
+		
+		\vspace{1.5cm}
+		\LARGE{\bf Assignment Report}
+		
+		\vspace{1cm}
+		\large{By David Blair}
+		
+		\vspace{0.1cm}
+		\large{Lecturer: Dr Simon Shaw}
+	\end{center}
+	\vspace*{\fill}
+	\newpage
+	
+	\section{Task 1}
+	The k-NN method is a machine learning method designed for problems involving classification and regression although it is more commonly used for classification. When it is given a new input vector, it locates the k nearest neighbours and uses the majority output class as the resulting prediction. 
+	
+	It is non-parametric meaning it makes no assumptions about the underlying distribution of the data. It is a lazy learning method meaning that it does not fit against a particular model but stores the entire training data. This makes training fast but may mean predictions are slow. 
+	
+	There are three common hyperparameters: the number of neighbours, the distance metric and the weighting scheme. The number of neighbours (the k in k-NN) indicates how many neighbours to consider when classifying the new input vector. The distance metric is how the classifier determines proximity to the input vector. Finally, the weighting scheme allows us to potentially weight each neighbour by a given number. A common weighting scheme is to use the inverse of the distance metric in order to allow closer neighbours to be weighted higher. 
+	
+	It was decided to make the train test split as 30\% for the testing and 70\% for the training. This is because it gave a sufficient number of testing samples to make the accuracy score meaningful. We also decided to stratify by the response column to make sure we had enough of each category to improve the quality of the results. 
+	
+	In order to calculate an estimate for $ \mathbf{P}(P | -) $ we took the number of times the classifier predicted Benign when the true label was Malignant and divided it by the sum of both times where the prediction was Benign. 
+	
+	\section{Task 2}	
+	\sout{Principle} Principal Component Analysis is a method of dimensionality reduction that attempts to maximise the explained variance along new dimensions or ``principle components". Given an n-dimensional dataset, we first need to calculate the covariance matrix:
+	
+	\begin{align}
+		\boldsymbol{\Sigma} = \begin{bmatrix}
+			\mathrm{cov}(x_1, x_1) & \mathrm{cov}(x_1, x_2) & \cdots & \mathrm{cov}(x_1, x_p) \\
+			\mathrm{cov}(x_2, x_1) & \mathrm{cov}(x_2, x_2) & \cdots & \mathrm{cov}(x_2, x_p) \\
+			\vdots & \vdots & \ddots & \vdots \\
+			\mathrm{cov}(x_p, x_1) & \mathrm{cov}(x_p, x_2) & \cdots & \mathrm{cov}(x_p, x_p)
+		\end{bmatrix}
+	\end{align}
+
+	You can think of this as a matrix that encapsulates the correlations between each dimension. If $ \mathrm{cov}(x_p, x_q) > 0 $, the variables increase or decrease together. If $ \mathrm{cov}(x_p, x_q) < 0 $ one increases as the other decreases.  The $ \mathrm{cov}(x_p, x_p) $ is given by:
+	\begin{align}
+		\mathrm{cov}(x_p, x_q) = E[(x_p - \mu_{x_p})(x_q - \mu_{x_q})]
+	\end{align}
+	The covariance between a variable and itself is the variance of that variable. The next step is to calculate the eigenvalues and eigenvectors of the covariance matrix using the following formula:
+	\begin{align}
+		\mathbf{\Sigma}\mathbf{v} = \lambda\mathbf{v}
+	\end{align}
+	The eigenvectors form a new basis (or eigenbasis) for a coordinate system that maximises the variance along each dimension. If we order the eigenvectors in decreasing order of size according to their eigenvalues, we can determine the amount of variance explained along that dimension. This allows us to produce a scree plot (see figure \ref{fig:screen_plot}) that exhibits the amount of variance explained by each dimension, determined by the eigenvalue.
+	\begin{figure}
+		\centering
+		\includegraphics*[width = 5cm]{scree_plot_example.png}
+		\caption{Scree Plot Example.}
+		\label{fig:screen_plot}
+	\end{figure}
+	Lastly, we need to project our data $ \matrx{X} $ onto the new coordinate system of the eigenbasis:
+	\begin{align}
+		\matrx{Y} = \matrx{X}\matrx{V}
+	\end{align}
+	Where $ \matrx{V} $ is the matrix of k eigenvectors. To reduce the dimensions of the data, we can then remove the number of dimensions we want starting with those with the lowest eigenvalue / explained variance.
+	
+	To calculate the total variance explained for 4 principle components, we calculate the total sum of the variance explained by all 4 components as 98.97\%.
+	
+	The dimensionality reduction increased the accuracy from 88.89\% to 91.23\% and reduced the false negative rate from 15.38\% to 12.31\%. This is most likely because the PCA captured the most important parts of the dataset, eliminating the less important. This means that I would recommend using 4-principle components. 
+\end{document}
