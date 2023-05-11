@@ -1,10 +1,38 @@
 \documentclass{article}
-\usepackage{graphicx}
 \usepackage{ulem}
 \usepackage{amsmath}
 \usepackage{bm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{helvet}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{listings}
 
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\ud}{\mathrm{d}}
+\newcommand{\p}{\partial}
+
+\newcommand{\set}[1]{\mathcal{#1}}
+\newcommand{\operation}{\bigotimes}
 \newcommand{\matrx}[1]{\bm{#1}}
+\newcommand{\vectr}[1]{\textbf{#1}}
+\newcommand{\real}{\mathbb{R}}
+\newcommand{\natral}{\mathbb{N}}
+\newcommand{\integers}{\mathbb{Z}}
+\newcommand{\italic}[1]{\textit{#1}}
+\newcommand{\rrank}[1]{rk_{row}(\matrx{#1})}
+\newcommand{\crank}[1]{rk_{col}(\matrx{#1})}
+\newcommand{\nexteq}{\refstepcounter{equation}\theequation}
+\newcommand{\dett}[1]{\text{det}(\matrx{#1})}
+\newcommand{\mdett}[1]{\text{det} \left ( #1 \right )}
+\newcommand{\lcomb}[1]{\sum_{i = 0}^{k} {#1} \vectr{v}_i}
+\newcommand{\vecspace}[1]{#1}
+
+\newtheorem{definition}{Definition}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{theorem}{Theorem}[section]
 
 \begin{document}	
 	\vspace*{\fill}
@@ -79,4 +107,22 @@
 	To calculate the total variance explained for 4 principle components, we calculate the total sum of the variance explained by all 4 components as 98.97\%.
 	
 	The dimensionality reduction increased the accuracy from 88.89\% to 91.23\% and reduced the false negative rate from 15.38\% to 12.31\%. This is most likely because the PCA captured the most important parts of the dataset, eliminating the less important. This means that I would recommend using 4-principle components. 
+	
+	\section{Task 3}
+	The singular value decomposition (SVD) allows you to decompose a matrix of any rank into the sum of rank-1 matrices. It allows you to do many things such as matrix approximation, matrix compression and dimensionality reduction.  The theorem is as follows:
+	
+	\begin{theorem}(SVD Theorem) 
+		\normalfont Let $ \matrx{A} \in \real^{m \times n} $ be a rectangular matrix of rank $ r \in [0, min(m, n)] $. The SVD of $ \matrx{A} $ is a decomposition of the form:
+		$$ \matrx{A} = \matrx{U} \matrx{\Sigma} \matrx{V}^{\top} $$
+		with an orthogonal matrix $ U \in \real^{m \times m} $ with column vectors $ \vectr{u}_i $, $ i = 1, \ldots, m $, and an orthogonal matrix $ \matrx{V} \in \real^{n \times n} $ with column vectors $ \vectr{v}_j $, $ j = 1, \ldots, n $. Moreover, $ \matrx{\Sigma} $ is an $ m \times n $ matrix with $ \Sigma_{ii} = \sigma_i \leq 0 $ and $ \Sigma_{ij} = 0 $, $ i \ne j $. 
+	\end{theorem}
+
+	\begin{figure}
+		\centering
+		\includegraphics*[scale = 0.3]{task_3_pairplot.png}
+		\caption{Pair Plot of Tesla Stock Data (Historic)}
+		\label{fig:task_3_pairplot}
+	\end{figure}
+
+	Figure \ref{fig:task_3_pairplot} is the pair plot of the Tesla stock data for the 5 variables under consideration. It looks as though all variables are correlated with on another excluding the Volume. This would indicate that two dominant independent components lie in this data. The dataset TSLHistory.csv has a rank of 5 after dropping all non-numeric columns. The variable Kc in the notebook is a rank-c approximation of the original dataset. 
 \end{document}

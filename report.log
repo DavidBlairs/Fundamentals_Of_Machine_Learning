@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.9)  23 APR 2023 12:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.9)  11 MAY 2023 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,49 +22,17 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-)
-(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx
-.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.s
-ty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-)
-(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics
-.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\grap
-hics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdft
-ex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-\stockwidth=\dimen139
-\stockheight=\dimen140
-))
-\Gin@req@height=\dimen141
-\Gin@req@width=\dimen142
-)
-(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+) (C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
 \UL@box=\box51
 \UL@hyphenbox=\box52
 \UL@skip=\skip49
-\UL@hook=\toks17
-\UL@height=\dimen143
+\UL@hook=\toks16
+\UL@height=\dimen139
 \UL@pe=\count193
-\UL@pixel=\dimen144
+\UL@pixel=\dimen140
 \ULC@box=\box53
 Package: ulem 2019/11/18
-\ULdepth=\dimen145
+\ULdepth=\dimen141
 )
 (C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.s
 ty
@@ -80,13 +48,13 @@ Package: amstext 2021/08/26 v2.01 AMS text
 (C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.st
 y
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
-\ex@=\dimen146
+\@emptytoks=\toks17
+\ex@=\dimen142
 ))
 (C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.st
 y
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen147
+\pmbraise@=\dimen143
 )
 (C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.st
 y
@@ -109,7 +77,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen148
+\big@size=\dimen144
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count199
@@ -122,21 +90,21 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip16
 \c@parentequation=\count267
 \dspbrk@lvl=\count268
-\tag@help=\toks19
+\tag@help=\toks18
 \row@=\count269
 \column@=\count270
 \maxfields@=\count271
-\andhelp@=\toks20
-\eqnshift@=\dimen149
-\alignsep@=\dimen150
-\tagshift@=\dimen151
-\tagwidth@=\dimen152
-\totwidth@=\dimen153
-\lineht@=\dimen154
-\@envbody=\toks21
+\andhelp@=\toks19
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks20
 \multlinegap=\skip51
 \multlinetaggap=\skip52
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
@@ -147,43 +115,125 @@ Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts
+.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.
+sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace
+.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.s
+ty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+))
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx
+.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics
+.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\grap
+hics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdft
+ex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen151
+\stockheight=\dimen152
+))
+\Gin@req@height=\dimen153
+\Gin@req@width=\dimen154
+)
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings
+.sty
+\lst@mode=\count272
+\lst@gtempboxa=\box56
+\lst@token=\toks23
+\lst@length=\count273
+\lst@currlwidth=\dimen155
+\lst@column=\count274
+\lst@pos=\count275
+\lst@lostspace=\dimen156
+\lst@width=\dimen157
+\lst@newlines=\count276
+\lst@lineno=\count277
+\lst@maxwidth=\dimen158
+
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.
+sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count278
+\lst@skipnumbers=\count279
+\lst@framebox=\box57
+)
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings
+.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+\c@definition=\count280
+\c@proposition=\count281
+\c@theorem=\count282
+
 (C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backe
 nd-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count272
-\l__pdf_internal_box=\box56
+\l__color_backend_stack_int=\count283
+\l__pdf_internal_box=\box58
 ) (report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 (C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-
 pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count273
-\scratchdimen=\dimen155
-\scratchbox=\box57
-\nofMPsegments=\count274
-\nofMParguments=\count275
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count276
-\MPscratchDim=\dimen156
-\MPnumerator=\count277
-\makeMPintoPDFobject=\count278
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count284
+\scratchdimen=\dimen159
+\scratchbox=\box59
+\nofMPsegments=\count285
+\nofMParguments=\count286
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen160
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
+\everyMPtoPDFconversion=\toks25
 )
 (C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epst
 opdf-base.sty
@@ -195,46 +245,68 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 -sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+\c@lstlisting=\count290
 <brunel logo.png, id=1, 1464.47125pt x 527.9725pt>
 File: brunel logo.png Graphic file (type png)
 <use brunel logo.png>
-Package pdftex.def Info: brunel logo.png  used on input line 12.
+Package pdftex.def Info: brunel logo.png  used on input line 40.
 (pdftex.def)             Requested size: 219.66121pt x 79.19244pt.
  [1
 
 {C:/Users/David.Blair/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./brun
-el logo.png>] [2]
+el logo.png>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
+
+
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
+
+(C:\Users\David.Blair\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [2]
 <scree_plot_example.png, id=20, 409.7709pt x 328.8285pt>
 File: scree_plot_example.png Graphic file (type png)
 <use scree_plot_example.png>
-Package pdftex.def Info: scree_plot_example.png  used on input line 69.
+Package pdftex.def Info: scree_plot_example.png  used on input line 97.
 (pdftex.def)             Requested size: 142.26378pt x 114.16345pt.
- [3 <./scree_plot_example.png>] (report.aux) ) 
+ [3 <./scree_plot_example.png>]
+<task_3_pairplot.png, id=29, 1066.7052pt x 1066.7052pt>
+File: task_3_pairplot.png Graphic file (type png)
+<use task_3_pairplot.png>
+Package pdftex.def Info: task_3_pairplot.png  used on input line 122.
+(pdftex.def)             Requested size: 320.01402pt x 320.01402pt.
+ [4 <./task_3_pairplot.png>] (report.aux) ) 
 Here is how much of TeX's memory you used:
- 2219 strings out of 475385
- 35221 string characters out of 2774075
- 385919 words of memory out of 3000000
- 23606 multiletter control sequences out of 15000+600000
- 474085 words of font info for 45 fonts, out of 8000000 for 9000
+ 4236 strings out of 475385
+ 64024 string characters out of 2774075
+ 408509 words of memory out of 3000000
+ 25582 multiletter control sequences out of 15000+600000
+ 475676 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,62p,578b,240s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/David.Blair/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/David.Bl
-air/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
-/Users/David.Blair/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Users/David.Blair/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb><C:/Users/David.Blair/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/David.Blair/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/David.Blair/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/User
-s/David.Blair/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><C:/Users/David.Blair/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><C:/Users/David.Blair/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/David.Blair/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (3 pages, 196196 bytes).
+ 55i,16n,62p,578b,261s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/David.Blair/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/David.Blair
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Us
+ers/David.Blair/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb><C:/Users/David.Blair/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb><C:/Users/David.Blair/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/David.Blair/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/David.Blair/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/D
+avid.Blair/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><C:/Users/David.Blair/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Users/David.Blair/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr7.pfb><C:/Users/David.Blair/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/David.Blair/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/David.Blai
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/U
+sers/David.Blair/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symb
+ols/msbm10.pfb>
+Output written on report.pdf (4 pages, 463394 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
